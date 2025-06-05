@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cukiernia X</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javson.js" async defer></script>
+</head>
+<body>
+    <header>
+        <h1>CUKIERNIA X</h1>
+
+    </header>
+
+    <main id="main_zamow">
+        <form action="">
+            <select id="Przysmaki_types"> 
+                <!-- <option value="">Nic hłe hłe</option> -->
+                <option value="1">Ciasto czekoladowe</option>
+                <option value="2">Ciasto borówkowe</option>
+                <option value="3">Babeczka</option>
+
+            </select>Rodzaj przymaku
+            <br>
+            <input type="number" id="ilosc"  value="0">Liczba przymaków
+            <br>
+
+            <input type="button" value="Dodaj do zamowienia" id="DodajButton">
+            <br><br>
+            <div id="Zamówienia">
+                Łączny koszt: 0 zł
+                <br><br>
+                Ciasto czekoladowe: 0
+                <br>
+                Ciasto borówkowe: 0
+                <br>
+                Babeczka: 0
+            </div>
+            <input type="text" required>Posiadłość
+            <br>
+
+            <input type="submit">
+        </form>
+
+    </main>
+
+
+
+    <nav>
+        <a href="Menu.html" class="Nawigacja">Menu</a>
+        <a href="MainStrona.html" class="Nawigacja">Główna</a>
+        <a href="Zamówienia.html" class="Nawigacja">Zamów</a>
+    </nav>
+
+</body>
+</html>
